@@ -1,10 +1,10 @@
 ## Informacija apie uzduoties realizavima
 
 Is esmes uzduotis realizuota siektiek kitaip nei butu iprastai
-kadangi jau kuris laikas nedirbau prie Symfony buvo idomu grizti bei prisiminti
-pagrindinis niuansas kuris man visados uzkliudavo naudojant SF request validation.
+kadangi jau kuris laikas nedirbau prie Symfony buvo idomu grizti bei prisiminti.
+Pagrindinis niuansas kuris man visados uzkliudavo naudojant SF request validation.
 Ypac jeigu kuriame REST API, tad pasinaudodamas proga, parasiau savo nedidele Validatoriaus implementacija
-- Ziureti Validation servisa ir Model/Request.
+- Ziureti Validation servisa ir Model/Request, EventSubscriber, Exception handlinima. 
 
 Tad pagrindine mintis apsirasyti savo Request modeli kuris atliks validacija - jokiu Forms komponentu ar panasiai.
 
